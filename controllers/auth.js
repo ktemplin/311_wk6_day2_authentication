@@ -1,5 +1,5 @@
-1const axios = require('axios')
-const mysql = require('mysql')
+const axios = require('axios')
+const mysql = require('mysql2')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const pool = require('../sql/connection')
